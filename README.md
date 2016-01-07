@@ -27,7 +27,7 @@ The stuff is in the box.  Trust me!
 
 ## Build
 
-Wire it up and stuff it in the enclosure.  Oh, yeah--drill some holes first.
+Wire it up and stuff it in the enclosure (see `src/main.cpp` for pin mappings).  Oh, yeah--drill some holes first.
 
 I'm unsure if the pins are 5V tolerant or not; there is a 5V output on the D1 Mini, but I'm scared to use it, so I connected both breakouts to 3.3V.
 
@@ -62,6 +62,10 @@ Can you share Blynk apps?  I don't know.
   ```
   $ platformio run --target upload
   ```
+
+## Notes
+
+`src/main.cpp` is an Arduino sketch.  See PlatformIO's docs for instructions on how to use this with various different IDEs; I used CLion.
 
 ## License
 
